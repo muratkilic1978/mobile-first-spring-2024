@@ -8,6 +8,18 @@ html {
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    margin: 20px;
+    color: red;
+}
+
 html {
     font-size: 14px;
 }
@@ -24,7 +36,4 @@ li a {
     color: black;
 }
 
-h2 {
-    color: red;
-}
 
