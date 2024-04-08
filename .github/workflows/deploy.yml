@@ -15,4 +15,4 @@ jobs:
 
       - name: Deploy to Simply.com
         run: |
-          rsync -avz --delete ./ your_username@your_server:/path/to/your/website
+          rsync -avz --delete ./ ${{ secrets.USERNAME }}@${{ secrets.SERVER }}:test.mdamsgaard.dk
